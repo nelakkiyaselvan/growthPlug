@@ -40,5 +40,6 @@ Pending implementations:
 3. Our services & Insurance section.
 4. Blog, Meet our Team and Awards section.
 5. Book an Appoinment Form validation and respective alert messages.
+6. Responsive mobile view.
 
 
