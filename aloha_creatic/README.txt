@@ -5,7 +5,7 @@ Description:
 This is a prototypical implementation of doctor appoinment portal.
 
 Tech Stack:
-HTML, CSS, jQuery, Javascript.
+HTML, CSS, jQuery, Javascript, fontawesome.css for css icons.
 
 Installation & Execution:
 1.Pull the code from "https://github.com/nelakkiyaselvan/growthPlug".
@@ -39,5 +39,6 @@ Pending implementations:
 2. Our practice section carousel.
 3. Our services & Insurance section.
 4. Blog, Meet our Team and Awards section.
+5. Book an Appoinment Form validation and respective alert messages.
 
 
