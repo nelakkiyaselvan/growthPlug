@@ -1,0 +1,589 @@
+body {
+    margin: 0;
+    font-family:Roboto;
+}
+
+.iconColor {
+    color: #e5ab37;
+}
+
+ul.headerMenu li {
+    width: 100px;
+    flex: 1;
+    line-height: 50px;
+    float: left;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-right: 1px;
+    font-size: 13px;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: rgba( 20,20,20, 0.5);
+    border-bottom: 2px solid transparent;
+}
+
+ul.headerMenu li:first-child {
+    border-bottom: none;
+    min-width: 200px;
+}
+
+ul.headerMenu li:last-child {
+    min-width: 20%;
+    background-color: #e5ab37;
+}
+
+ul.headerMenu {
+    padding: 0;
+    background-color: transparent;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    z-index: 2;
+    margin: 0;
+}
+
+li.headerLogo img {
+    width: 100%;
+}
+
+li.homeLink.active, li.homeLink:hover {
+    border-bottom: 2px solid #e5ab37;
+}
+
+ul.headerMenu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.bannnerList img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.physicianWrapper {
+    float: left;
+}
+
+.physicianList {
+    float: left;
+}
+
+.physicianDetailsWrap {
+    width: 50%;
+    float: left;
+}
+
+.physicianDetailsWrap > div {
+    float: left;
+}
+
+.phyTopContainer {
+    max-height: 250px;
+}
+
+.phyTopContainer > div {
+    float: left;
+}
+
+.physicianImage {
+    width: 40%;
+    overflow: hidden;
+}
+
+.physicianImage img {
+    width: 100%;
+    height: -webkit-fill-available;
+    object-fit: cover;
+    transform: scale(1.2);
+}
+
+.physicianDetails {
+    padding: 2% 4% 0;
+    width: 50%;
+}
+
+.physicianDetails h2 {
+    margin-bottom: 0;
+}
+
+.physicianDetails ul {
+    list-style: none;
+    padding: 0;
+}
+
+.phyTextDetails {
+    font-size: 13px;
+    line-height: 17px;
+    color: #908b8b;
+}
+
+.physicianDetails > span {
+    font-weight: bold;
+}
+
+span#phyEducation {
+    color: #525151;
+}
+
+.phyExtras {
+    width: -webkit-fill-available;
+    padding: 20px;
+}
+
+.extralogo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid #908b8b;
+    float: left;
+    margin-top: 30px;
+}
+
+.extralogo > span {
+    line-height: 60px;
+    font-size: 20px;
+}
+
+.extraText {
+    float: left;
+    max-width: 200px;
+    margin-left: 15px;
+}
+
+.extraText h5 {
+    margin: 20px 0;
+}
+
+.extraText p {
+    color: #908b8b;
+    font-size: 14px;
+    margin: 0;
+}
+
+.phyMembership {
+    width: 65%;
+}
+
+.phyExtras > div {
+    float: left;
+}
+
+.phyLang {
+    width: 35%;
+}
+
+.ourPractice {
+    float: left;
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.photoGallery {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1000px;
+    position: relative;
+}
+
+.photoGrid {
+    margin: 0 auto;
+    overflow: hidden;
+    max-height: 338px;
+}
+
+.photoGrid > div {
+    width: 50%;
+    float: left;
+    height: auto;
+}
+
+.leftPanel > img {
+    width: 100%;
+    object-fit: none;
+}
+
+.rightPanel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.prevArrow {
+    left: -60px;
+}
+
+.nextArrow {
+    right: -50px;
+}
+
+.navArrow {
+    position: absolute;
+    top: 50%;
+}
+
+footer {}footer {
+    background-color: rgba(14, 14, 14, 0.89);
+    float: left;
+    width: 100%;
+    color: #ffffff;
+}
+
+.ftHeader {
+    height: 70px;
+    padding-top: 20px;
+}
+
+.ftHeader h2 {
+    float: left;
+    margin-left: 100px;
+}
+
+.ftContactUs {
+    float: right;
+    margin-top: 25px;
+    padding-right: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 30px;
+}
+
+.ftContactUs a > span {
+    margin-right: 10px;
+}
+
+.mapContainer {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.mapImage {
+    flex: 1;
+    display: flex;
+    float: left;
+    position: relative;
+}
+
+.mapImage img {
+    width: 100%;
+}
+
+.ftFooter {
+    float: left;
+    height: 30px;
+}
+
+.bookPopup {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    padding: 8%;
+    z-index: 2;
+    color: #000000;
+}
+
+.bookPopup > div {
+    float: left;
+}
+
+.bookDetail > p {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+    margin: 0;
+}
+
+.bookBtn {
+    background: rgba(14, 14, 14, 0.89);
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bookDetail {
+    width: 40%;
+}
+
+.bookTimings {
+    width: 55%;
+    background: #ffffff;
+    margin-left: 10px;
+}
+
+ul.availDays {
+    list-style: none;
+    font-size: 13px;
+    padding: 0 10px;
+}
+
+ul.availDays li {
+    line-height: 20px;
+}
+
+ul.availDays li.disable {
+    opacity: 0.5;
+}
+
+footer .bookPopup:hover {
+    background: rgba( 20,20,20, 0.5);
+}
+
+footer .bookPopup:hover .bookBtn{
+    background: #e5ab37;
+    color: #383434;
+}
+
+footer .bookPopup:hover .bookDetail h4 {
+    color:#ffffff;
+}
+
+footer .bookPopup:hover .bookDetail p {
+    color:#cac4c4;
+}
+
+.cls_popup .bookDetail {
+    width: 100%;
+    background: #ffffff;
+    padding-top: 20px;
+}
+
+.cls_popup .bookPopup {
+    width: 50%;
+    padding: 0px 25%;
+}
+
+.cls_popup .bookDetail p {
+    padding: 0 10px;
+    text-align: center;
+}
+
+.cls_popup h4 {
+    text-align: center;
+}
+
+.cls_popup .bookBtn:hover {
+    background: #e5ab37;
+}
+
+.cls_popup .bookDetail p.normalText {
+    font-weight: normal;
+}
+
+.cls_popup {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+    z-index: 9;
+    max-height: 320px;
+}
+
+.cls_popup .mapContainer {
+    width: 80%;
+    padding: 0 10%;
+}
+
+.closeIcon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    border: 1px solid;
+    right: calc(10% - 25px);
+    top: -25px;
+    background: #ffffff;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.mapContainer.docList .bookPopup {
+    height: auto;
+    bottom: 20px;
+}
+
+.mapContainer.docList .mapImage img {
+    object-fit: cover;
+    height: -webkit-fill-available;
+}
+
+.backToForm {
+    width: 40px;
+    background: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    line-height: 300px;
+    cursor: pointer;
+}
+
+.mapContainer.docAppoinment {
+    display: none;
+}
+
+.applyWrapper {
+    float: left;
+    background: #EFE9DB;
+    width: calc(100% - 40px);
+}
+
+.appointmentForm {
+    width: 70%;
+    float: left;
+}
+
+.clientDetails input {
+    background-color: #ffffff;
+    padding: 11px;
+    width: 190px;
+    margin: 10px 10px 10px 0;
+}
+
+.appointmentForm fieldset {
+    border: none;
+    padding-left: 0;
+}
+
+fieldset legend > span:first-child {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.weekdays input[type=checkbox] + label, .daySession input[type=checkbox] + label {
+    display: inline-block;
+    background: #fff;
+    height: 40px;
+    width: auto;
+    margin-right: 3px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    padding: 1px 10px;
+}
+
+.weekdays input, .daySession input {
+    display: none;
+}
+
+input#submit {
+    background: rgba(14, 14, 14, 0.89);
+    color: #ffffff;
+    font-size: 15px;
+    width: 100%;
+    height: 40px;
+    font-weight: bold;
+}
+
+.weekdays input[type=checkbox]:checked + label, .daySession input[type=checkbox]:checked + label {
+    background: #D0A43F;
+    color: #fff;
+}
+
+.docDetails {
+    width: 20%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.docImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.docImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+form#docBooking {
+    width: 80%;
+}
+
+.docDetails .bookDetail {
+    background: none;
+}
+
+.docDetails .bookDetail p {
+    padding: 0;
+    width: 100px;
+}
+
+.mapContainer.docAppoinment .backToForm {
+    line-height: 400px;
+    float: left;
+}
+
+.mask {
+    top: 0;
+    position: absolute;
+    padding: 20%;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.successPop {
+    width: 500px;
+    background: #EFE9DB;
+    text-align: center;
+    height: 200px;
+    padding: 5% 0 0 0;
+}
+
+.closePop {
+    background: rgba(14, 14, 14, 0.89);
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100px;
+    padding: 10px 30px;
+}
+
+@media only screen and (max-width:1023px) and (orientation:portrait)  {
+    .photoGrid {
+        max-height: 249px;
+    }
+
+    .bookPopup {
+        padding: 0 2%;
+        width: 100%;
+    }
+
+    .bookDetail {
+        width: 30%;
+    }
+
+    .bookTimings {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width:767px) {
+   
+}
+
+@media only screen and (max-width:767px) and (orientation:landscape) {
+    
+}
